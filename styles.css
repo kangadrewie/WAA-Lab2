@@ -1,0 +1,115 @@
+body {
+    background-image: url('./images/clouds-bg.svg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+    margin: 0;
+}
+
+#bottom-banner {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+h1 {
+    font-family: 'Crafty Girls', cursive;
+    font-size: 2em;
+    margin: 0;
+    padding: 50px 0 0 0;
+}
+
+#primaryHeading {
+    font-family: 'Fredoka One', cursive;
+    font-size: 7em;
+    width: 100%;
+    text-align: center;
+}
+
+.blue-font {
+    color: blue;
+}
+
+#score {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+#gameComplete {
+    font-family: 'Fredoka One', cursive;
+    font-size: 7em;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 999;
+    transition: 0.5s ease-in;
+}
+
+tr {
+    width: auto;
+    height: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: blue;
+    transition: 0.2s ease-in-out;
+}
+
+button {
+    font-family: 'Crafty Girls', cursive;
+    min-width: 450px;
+    height: 150px;
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 0px;
+    border-radius: 50px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+    background-color: red;
+}
+
+.blue {
+    color: blue;
+    background-color: blue;
+}
+
+.green {
+    color: green;
+    background-color: green;
+}
+
+.orange {
+    color: orange;
+    background-color: orange;
+}
+
+.inactive {
+    background-color: black;
+    opacity: 0.8;
+}
